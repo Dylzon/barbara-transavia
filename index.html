@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Transavia - 99 verhalen</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html"><img src="img/transavia-logo.svg" alt="Transavia - 99 verhalen homepage."></a>
+      <ul>
+        <li><a href="lijst.html"><i class="fas fa-list-ul fa-2x"></i></a></li>
+        <li><a href="inloggen.html"><i class="fas fa-user-circle fa-2x"></i></a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <form action="zoeken.html">
+        <label>Zoeken naar een verhaal
+        <input type="text" placeholder="bijv. naam, emotie, titel">
+        </label>
+        <button><i class="fas fa-search"></i>Zoeken</button>
+      </form>
+    </section>
+  </header>
+
+  <main>
+    <h1>Meest gelezen</h1>
+    <section class="bg">
+        <article class="white">
+          <a href="50-gefrustreerd.html">
+          <img src="img/50.jpg" alt="50. Gefrustreerd">
+            <footer>
+              <h2>50. Gefrustreerd</h2>
+              <p><i class="fab fa-readme"></i>223x gelezen</p>
+              <p><i class="fas fa-comments"></i>52 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>15 min</p>
+            </footer>
+          </a>
+          <button class="lijst"><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button class="down"><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article class="white">
+          <a href="">
+          <img src="img/08.jpg" alt="08. Twitter">
+            <footer>
+              <h2>08. Twitter</h2>
+              <p><i class="fab fa-readme"></i>106x gelezen</p>
+              <p><i class="fas fa-comments"></i>22 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>10 min</p>
+            </footer>
+          </a>
+          <button class="lijst"><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button class="down"><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article class="white">
+          <a href="">
+          <img src="img/96.jpg" alt="96. Steenkolenfrans">
+            <footer>
+              <h2>96. Steenkolenfrans</h2>
+              <p><i class="fab fa-readme"></i>90x gelezen</p>
+              <p><i class="fas fa-comments"></i>22 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>15 min</p>
+            </footer>
+          </a>
+          <button class="lijst"><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button class="down"><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+    </section>
+
+    <h1>Alle verhalen</h1>
+    <button id="toggle"><i class="fas fa-filter"></i>Filteren</button>
+    <form class="filter">
+      <fieldset>
+        <legend>Sorteer op</legend>
+        <label> Reacties <input name="sorteren" type="radio" checked="checked"> </label>
+        <label> Aantal keer gelezen <input name="sorteren" type="radio"> </label>
+      </fieldset>
+      <fieldset>
+        <legend>Leestijd</legend>
+        <label> 5 min <input type="checkbox"> </label>
+        <label> 10 min <input type="checkbox"> </label>
+        <label> 15 min <input type="checkbox"> </label>
+      </fieldset>
+      <fieldset>
+        <legend>Sfeer</legend>
+        <label> Absurd <input type="checkbox"> </label>
+        <label> Angstig <input type="checkbox"> </label>
+        <label> Boos <input type="checkbox"> </label>
+      </fieldset>
+      <fieldset>
+        <legend>Visuele stijl</legend>
+        <label> Abstract <input type="checkbox"> </label>
+        <label> Geometrisch <input type="checkbox"> </label>
+        <label> Minimalistisch <input type="checkbox"> </label>
+      </fieldset>
+    </form>
+    <section>
+        <article>
+          <a href="">
+          <img src="img/89.jpg" alt="89. Zombie">
+            <footer>
+              <h2>89. Zombie</h2>
+              <p><i class="fab fa-readme"></i>33x gelezen</p>
+              <p><i class="fas fa-comments"></i>2 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>10 min</p>
+            </footer>
+          </a>
+          <button class="lijst"><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button class="down"><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article>
+          <a href="">
+          <img src="img/47.jpg" alt="47. Haiku">
+            <footer>
+              <h2>47. Haiku</h2>
+              <p><i class="fab fa-readme"></i>52x gelezen</p>
+              <p><i class="fas fa-comments"></i>7 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>5 min</p>
+            </footer>
+          </a>
+          <button class="lijst"><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button class="down"><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article>
+          <a href="">
+          <img src="img/90.jpg" alt="90. Telegrafisch">
+            <footer>
+              <h2>90. Telegrafisch</h2>
+              <p><i class="fab fa-readme"></i>61x gelezen</p>
+              <p><i class="fas fa-comments"></i>4 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>10 min</p>
+            </footer>
+          </a>
+          <button class="lijst"><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button class="down"><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article>
+          <a href="">
+          <img src="img/96.jpg" alt="96. Steenkolenfrans">
+            <footer>
+              <h2>96. Steenkolenfrans</h2>
+              <p><i class="fab fa-readme"></i>90x gelezen</p>
+              <p><i class="fas fa-comments"></i>22 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>15 min</p>
+            </footer>
+          </a>
+          <button class="lijst"><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button class="down"><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article>
+          <a href="">
+          <img src="img/71.jpg" alt="71. Vrijdag de 13e">
+            <footer>
+              <h2>71. Vrijdag de 13e</h2>
+              <p><i class="fab fa-readme"></i>12x gelezen</p>
+              <p><i class="fas fa-comments"></i>0 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>10 min</p>
+            </footer>
+          </a>
+          <button class="lijst"><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button class="down"><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+
+        <article>
+          <a href="50-gefrustreerd.html">
+          <img src="img/50.jpg" alt="50. Gefrustreerd">
+            <footer>
+              <h2>50. Gefrustreerd</h2>
+              <p><i class="fab fa-readme"></i>223x gelezen</p>
+              <p><i class="fas fa-comments"></i>52 beoordelingen</p>
+              <p><i class="fas fa-clock"></i>15 min</p>
+            </footer>
+          </a>
+          <button class="lijst"><i class="fas fa-plus"></i> Mijn lijst</button>
+          <button class="down"><i class="fas fa-arrow-down"></i> Downloaden</button>
+        </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2019 Transavia. Alle rechten voorbehouden.</p>
+  </footer>
+
+  <script src="js/script.js" charset="utf-8"></script>
+
+</body>
+</html>

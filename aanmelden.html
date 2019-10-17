@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aanmelden - Transavia - 99 verhalen</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html"><img src="img/transavia-logo.svg" alt="Transavia - 99 verhalen homepage."></a>
+      <ul>
+        <li><a href="lijst.html"><i class="fas fa-list-ul fa-2x"></i></a></li>
+        <li><a href="inloggen.html"><i class="fas fa-user-circle fa-2x"></i></a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <form action="aanmelden.html">
+        <label>Gebruikersnaam
+        <input type="text" required>
+        </label>
+        <label>E-mailadres
+        <input type="email" placeholder="gebruiker@domein.nl" required>
+        </label>
+        <label>Wachtwoord
+        <input type="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
+        </label>
+        <p class="feedback">Het formulier is helemaal juist ingevuld.</p>
+        <button type="submit">Aanmelden</button>
+        <p>Heb je al een account? <a href="inloggen.html">Log nu snel in!</a></p>
+      </form>
+    </section>
+  </header>
+
+  <footer>
+    <p>&copy; 2018 Transavia. Alle rechten voorbehouden.</p>
+  </footer>
+</body>
+</html>
